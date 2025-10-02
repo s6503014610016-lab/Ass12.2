@@ -10,11 +10,11 @@ void setup() {
 void loop() {
     digitalWrite(LED_PIN, HIGH);
     Serial.println("LED ON");
-    delay(1000);
+    delay(1500);
 
     digitalWrite(LED_PIN, LOW);
     Serial.println("LED OFF");
-    delay(1000);
+    delay(1500);
 }
 
 //  git init
